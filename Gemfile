@@ -45,8 +45,8 @@ gem 'jbuilder', '~> 2.5'
 ############################################
 # Production-only gems
 group :production do
-  # Use MySQL as the database in production
-  gem 'mysql2'
+  # Use Postgres in production
+  gem 'pg', '~> 1.0'
 end
 
 ############################################
